@@ -1,0 +1,81 @@
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+ */
+
+@media (max-width: 34em) {
+  .search {
+    width: 300px;
+  }
+
+  .search input {
+    padding: 5px 10px;
+    height: 50px;
+    margin-right: 16px;
+  }
+
+  .search button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .search button img {
+    width: 14px;
+  }
+
+  .weather-icon {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .weather h1 {
+    font-size: 64px;
+    font-weight: 400;
+  }
+  .weather h2 {
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: -5px;
+  }
+
+  .details {
+    padding: 0 20px;
+    margin-top: 50px;
+  }
+
+  .col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+
+  .col p {
+    font-size: 16px;
+  }
+  /* .col img {
+    width: 40px;
+    margin-right: -10px;
+  } */
+
+  /* .humidity,
+  .wind {
+    font-size: 28px;
+    margin-top: -6px;
+  } */
+
+  /* .humidity {
+    font-size: 28px;
+    margin-top: -6px;
+    margin-left: -5px;
+  }
+
+  .wind {
+    font-size: 28px;
+    margin-top: -6px;
+    margin-right: 10px;
+  } */
+}
